@@ -1,0 +1,27 @@
+# VidLingo
+
+**VidLingo** is a Python desktop application that translates the content of YouTube videos into multiple languages. It combines a **user-friendly GUI** with the power of **OpenAI’s language models** and **LangChain** to provide accurate translations in real time.
+
+---
+
+## **What it does**
+- Loads YouTube video transcripts automatically
+- Translates text into multiple languages (French, Spanish, German, Italian, Hungarian, Dutch)
+- Simple dropdown interface to select the target language
+- Prints translation results (can be extended to display in the GUI)
+
+---
+
+## **Tech Stack**
+- **Python 3.x** – programming language
+- **Tkinter** – for GUI interface
+- **LangChain** – manages prompt and LLM interactions
+- **OpenAI API** – performs the actual language translation
+- **YoutubeLoader** – extracts YouTube video content
+
+---
+
+## **Dependencies**
+Install the required Python packages:
+```bash
+pip install langchain openai tkinter
